@@ -1,0 +1,128 @@
+/**   header style      **/
+
+body{
+ margin:0px;
+}
+.head-nav{
+    display:inline-block;
+}
+.head-right{
+    display: inline-block;
+    position: relative;
+    left:940px;
+}
+.head-right li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.head-right  a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+    
+.head-right li:last-child a{
+    color: rgb(245, 239, 239);
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(51, 63, 224);
+    border-radius: 2px;
+}
+.head-left{
+     display: inline-block;
+     padding: 0px;
+}
+.head-left li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+.head-left li a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/*    end of header style        */   
+
+
+/* main style */
+main{
+     padding:150px 40px 20px 40px; 
+     text-align: center;
+}
+figure{
+
+}
+figure img{
+    position: relative;
+    margin:0 auto;
+    width:150px;
+}
+input{
+    border-radius:15px;
+    width:550px;
+    height: 30px;
+    border:1px solid rgb(167, 164, 164);
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+}
+/* end of main style  */
+
+
+
+/*     footer styles   */
+footer{
+    margin-top: 140px;
+    background-color: rgb(236, 234, 236);
+    margin-bottom: 0px;
+    padding: 0;
+    height: 90px;
+}
+.foot-nav {
+    display: inline-block;
+}
+
+.foot-right {
+    display: inline-block;
+    position: relative;
+    left: 750px;
+}
+.foot-right li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.foot-right a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.foot-left {
+    display: inline-block;
+    padding: 0px;
+}
+
+.foot-left li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.foot-left li a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/*
+hr{
+
+} 
+
+/*   end of footer styles   */

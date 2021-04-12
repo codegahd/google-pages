@@ -1,128 +1,104 @@
-/**   header style      **/
-
 body{
- margin:0px;
+    padding: 0px;
+    margin: 0px;
 }
-.head-nav{
-    display:inline-block;
-}
-.head-right{
-    display: inline-block;
-    position: relative;
-    left:940px;
-}
-.head-right li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 20px;
-}
-.head-right  a{
-    text-transform: capitalize;
-    text-decoration: none;
-}
-    
-.head-right li:last-child a{
-    color: rgb(245, 239, 239);
-    padding: 8px 20px 8px 20px;
-    background-color: rgb(51, 63, 224);
-    border-radius: 2px;
-}
-.head-left{
-     display: inline-block;
-     padding: 0px;
-}
-.head-left li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 25px;
+nav{
+    display:flex;
+    justify-content:space-around ;
+    width:20%;
+    margin-left: 78%;
+    margin-top: 10px;
     
 }
-.head-left li a{
-    text-transform: capitalize;
+nav a {
+    color:rgb(68, 67, 67);
     text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 15px;
 }
-/*    end of header style        */   
-
-
-/* main style */
-main{
-     padding:150px 40px 20px 40px; 
-     text-align: center;
-}
-figure{
-
-}
-figure img{
-    position: relative;
-    margin:0 auto;
-    width:150px;
-}
-input{
-    border-radius:15px;
-    width:550px;
-    height: 30px;
-    border:1px solid rgb(167, 164, 164);
-    outline: none;
-}
-
-button{
-    margin-top: 20px;
-    margin-left: 10px;
-    padding: 8px 20px 8px 20px;
-    border: none;
-    outline:none;
+nav a:last-child{
+    background-color: rgb(25, 116, 219);
+    padding:8px 16px;
+    color:cornsilk;
+    margin-left: 14px;
     border-radius: 4px;
 }
-/* end of main style  */
+nav a:last-child:hover{
+    text-decoration: none;
+    background-color:rgb(22, 139, 235);
+    box-shadow:2px 2px 10px 2px rgb(135 135 135 / 30%)
+
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+nav img{
+     height:24px;
+     margin-top: 4px;
+     color:grey;
 
 
+}
 
-/*     footer styles   */
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+figure img{
+    width:45%;
+}
+input{
+    width:80%;
+    padding:1em;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(187, 184, 184);
+}
+.btn-container{
+    margin-top: 25px;
+}
+button{
+    padding: 10px;
+    margin-left: 12px;
+    text-transform: capitalize;
+    border:none;
+    outline: none;
+    background-color: rgb(241, 239, 239);
+    border-radius: 2px;
+}
 footer{
-    margin-top: 140px;
-    background-color: rgb(236, 234, 236);
-    margin-bottom: 0px;
-    padding: 0;
-    height: 90px;
+    background-color: rgb(243, 240, 240);
+    margin-top: 14rem;
 }
-.foot-nav {
-    display: inline-block;
+.foot-heading{
+    padding: .2em;
 }
-
-.foot-right {
-    display: inline-block;
-    position: relative;
-    left: 750px;
+.foot-heading p{
+    margin-left: 2.2em;
+    text-transform: capitalize;
+    color: rgb(109, 107, 107);
 }
-.foot-right li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 20px;
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-top: 1px solid rgb(206, 203, 203);
 }
-
+.foot-bottom a{
+       text-transform: capitalize;
+       text-decoration: none;
+       color:rgb(109, 107, 107);
+}
+.foot-left a{
+    margin-left: 1.5em;
+}
 .foot-right a {
-    text-transform: capitalize;
-    text-decoration: none;
+    margin-right: 1.5em;
 }
-.foot-left {
-    display: inline-block;
-    padding: 0px;
+.foot-bottom a:hover{
+    text-decoration: underline;
 }
-
-.foot-left li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 25px;
-
-}
-
-.foot-left li a {
-    text-transform: capitalize;
-    text-decoration: none;
-}
-/*
-hr{
-
-} 
-
-/*   end of footer styles   */
